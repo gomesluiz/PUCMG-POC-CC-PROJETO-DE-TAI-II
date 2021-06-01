@@ -1,0 +1,378 @@
+/*UM MONTE DE COISA CONFUSA*/
+
+body {
+  font-family: sans-serif;
+  background-color: white ;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Separator {
+  height: 75px;
+}
+.inputForm {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: 0px solid #eaeaea;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  outline: none;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 15px;
+  width: 150px;
+  max-width: auto;
+  padding-top: 0px;
+
+
+}
+
+.SRCH {
+  height: 100vh;
+  width: 275px;
+  background-color: #247f28;
+  transition: 0.5s;
+  line-height: 50px;
+  background-color: #247f28;
+  padding-left: 15px;
+  float: left;
+  position: fixed;
+}
+
+#ID {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 30px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-right: 0px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#srchBtn {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  margin-left: -4px !important;
+  width: 85px;
+  font-size: 14px;
+  padding: 0px;
+  padding-left: 15px;
+  transition: 0.2s;
+}
+
+#srchBtn:hover {
+  transition: 0.2s;
+  background-color: #76e87a;
+  padding: 0;
+}
+
+.inputTitle {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  height: 30px;
+  margin-right: -5px !important;
+  width: 125px;
+  font-size: 15px;
+  padding: 0;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.BTN {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  border-radius: 10px;
+  background-color: #2be265;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.2s;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+#cadastroBtn {
+  width: 119px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  float: left;
+}
+
+#confirmBtn {
+  width: 119px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  float: left;
+}
+
+#gerarCadastro {
+  width: 135px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -5px;
+
+}
+
+.BTN:hover {
+  transition: 0.2s;
+  background-color: #2dc65e;
+}
+
+.BTN:active {
+  transition: 0.1s;
+  background-color: #68ff97;
+}
+
+.ficha {
+  float: left;
+  padding-left: 300px;
+  width: auto;
+}
+
+.ficha h1 {
+  color: white;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.Field {
+  display: inline;
+  overflow: auto;
+
+}
+.pronts{
+  color:white;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: grey;
+  padding: 0px;
+  padding-top: 10px;
+  padding-left:5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width: 450px;
+  top:100px;
+  float: right;
+}
+.pronts li{
+  word-break: break-word;
+}
+
+#resultado, #lista {
+  padding-left: 10px;
+  line-height:20px;
+}
+
+#lista {
+  float: left;
+
+}
+
+#srchBtn {
+  padding-left: 0px;
+}
+#texto{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login {
+  margin-left: 40vw;
+  margin-top: 15vh;
+}
+
+.FichaMedica {
+  opacity: 0;
+}
+#imagemMed
+{
+  margin-left: 57px;
+  filter: saturate(0.6) brightness(2);
+  margin-bottom: 10px;
+}
+#imagemPUC
+{
+  position: absolute;
+  margin:auto;
+  float: left;
+  top: 10px;
+  filter: saturate(3) brightness(2);
+
+}
+
+
+#adocao
+{
+ background-color: blueviolet;
+ width: 656px;
+ height: 698px;
+
+}
+#tipo
+{
+margin-top: 15px;
+text-align: center;
+background-color: red;
+border: 3px solid #fbfbfb;
+width: 150px;
+height: 100px;
+margin-left: 25px;
+
+}
+#idade
+{
+  margin-top: 15px;
+  text-align: center;
+  background-color: green;
+  border: 3px solid #73AD21;
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+  
+}
+
+#raca
+{
+margin-top: 15px;
+text-align: center;
+background-color: blue;
+border: 3px solid #fbfbfb;
+width: 200px;
+height: 75px;
+margin-left: 15px;
+}
+
+
+
+
+#caracteristicas
+{
+    width: 550px;
+    padding: 12px 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+
+#rac_ca{
+  background-color: chocolate;
+  width: 330px;
+  height: 350px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+#tip_id
+{
+  background-color: coral;
+  width: 250px;
+  height: 350px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+  
+    
+}
+textarea
+{
+  width: 270px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#foto
+{
+  width: 600px;
+  height: 270px;
+  background-color: blue;
+  margin-top: 15px;
+  float: left;
+  margin-left: 30px;
+}
+
+
+form{
+  top: 50%;
+  left: 50%;
+  margin-top: 75px;
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  border: 4px dashed rgb(112, 112, 112);
+}
+form p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 170px;
+  color: #000000;
+  font-family: Arial;
+}
+form input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form button{
+  margin: 0;
+  color: #fff;
+  background: #16a085;
+  border: none;
+  width: 200px;
+  height: 35px;
+  float: right;
+  margin-top: -20px;
+  margin-left: -4px;
+  border-radius: 4px;
+  border-bottom: 4px solid #117A60;
+  transition: all .2s ease;
+  outline: none;
+}
+form button:hover{
+  background: #149174;
+    color: #0C5645;
+}
+form button:active{
+  border:0;
+}
+
